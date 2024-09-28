@@ -1,4 +1,5 @@
 import logo from "./logo.png";
+import Logo_S from "./Logo_S.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -31,6 +32,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  Logo_S,
   logo,
   backend,
   creator,
