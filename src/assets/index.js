@@ -21,7 +21,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import cpp from "./tech/c++.png";
+import cpp from "./tech/cpp.png";
 import aws from "./tech/aws.png";
 import express from "./tech/express.png";
 import mysql from "./tech/mysql.png";
