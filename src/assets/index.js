@@ -26,6 +26,11 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import exposys from "./company/exposys.jpg";
+import codsoft from "./company/codsoft.jpg";
+import getfly from "./company/getfly.jpg";
+import ibm from "./company/ibm.png";
+import prodigy from "./company/prodigy.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -58,6 +63,11 @@ export {
   shopify,
   starbucks,
   tesla,
+  exposys,
+  codsoft,
+  getfly,
+  ibm,
+  prodigy,
   carrent,
   jobit,
   tripguide,
