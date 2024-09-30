@@ -34,6 +34,9 @@ import {
   syncChat,
   movieFlex,
   adminDashboard,
+  cohort,
+  isro,
+  leetCode,
 } from "../assets";
 
 export const navLinks = [
@@ -193,7 +196,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "Achieved dynamic tracking of LeetCode progress, enhancing problem-solving skills and coding proficiency through continuous practice and challenges.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -308,4 +311,33 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const certifications = [
+  {
+    name: "Full Stack Developer Certification",
+    organization: "100xDevs",
+    date: "Mar 2024",
+    image: cohort,
+    link: "https://drive.google.com/file/d/1an3b24soXE6wgTMfBz5mTaNyaqK80izi/view?usp=drive_link",
+  },
+  {
+    name: "Geo-data sharing and Cyber Security",
+    organization: "Indian Space Research Organisation (ISRO)",
+    date: "Oct 2022",
+    image: isro,
+    link: "https://drive.google.com/file/d/1JEXLLHmAOZF4Yo-c73jnb__rt-B2FA7Q/view?usp=sharing",
+  },
+  {
+    name: "LeetCode Profile",
+    link: "https://leetcode.com/u/shubham_yeram/",
+    image: leetCode,
+  },
+];
+
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  certifications,
+};

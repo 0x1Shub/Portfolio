@@ -48,6 +48,10 @@ import syncChat from "./syncChat.png";
 import movieFlex from "./movieFlex.png";
 import adminDashboard from "./adminDashboard.png";
 
+import cohort from "./certification/cohort.png";
+import isro from "./certification/isro.jpg";
+import leetCode from "./certification/leetCode.png";
+
 export {
   Logo_S,
   logo,
@@ -95,4 +99,7 @@ export {
   syncChat,
   movieFlex,
   adminDashboard,
+  cohort,
+  isro,
+  leetCode,
 };
