@@ -43,6 +43,10 @@ import prodigy from "./company/prodigy.jpg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import caringCause from "./caringCause.png";
+import syncChat from "./syncChat.png";
+import movieFlex from "./movieFlex.png";
+import adminDashboard from "./adminDashboard.png";
 
 export {
   Logo_S,
@@ -87,4 +91,8 @@ export {
   post,
   postgresql,
   sass,
+  caringCause,
+  syncChat,
+  movieFlex,
+  adminDashboard,
 };

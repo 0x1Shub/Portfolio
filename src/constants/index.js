@@ -30,6 +30,10 @@ import {
   nextjs,
   mysql,
   express,
+  caringCause,
+  syncChat,
+  movieFlex,
+  adminDashboard,
 } from "../assets";
 
 export const navLinks = [
@@ -215,67 +219,92 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Caring-Cause",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a Caring-Cause Crowdfunding platform using TypeScript, React.js, Node.js, and MongoDB, enabling users to create and manage fundraising campaigns efficiently and securely.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "mongoDB",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: caringCause,
+    source_code_link: "https://github.com/0x1Shub/Caring-Cause",
+    link: "",
   },
   {
-    name: "Job IT",
+    name: "SyncChat",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed SyncChat, an online chat application using React.js, Node.js, MongoDB, and Socket.IO, enabling real-time messaging, user authentication, profile creation, and group channels.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "SocketIO",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: syncChat,
+    source_code_link: "https://github.com/0x1Shub/SyncChat",
+    link: "",
   },
   {
-    name: "Trip Guide",
+    name: "MovieFlex",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed MovieFlex, a Netflix-like web application using React, providing comprehensive information about movies and TV shows, including details, ratings, and recommendations.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "sass",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tmdb",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: movieFlex,
+    source_code_link: "https://github.com/0x1Shub/Movieflex",
+    link: "",
+  },
+  {
+    name: "Admin Dashboard",
+    description:
+      "Developed an Admin Dashboard using React and TypeScript, featuring real-time data visualization for transactions, revenue, inventory, and users with bar charts, line graphs, and pie charts.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescipt",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react-tables",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: adminDashboard,
+    source_code_link: "https://github.com/0x1Shub/admin-dashboard",
+    link: "https://admin-dashboard-omega-gray.vercel.app/",
   },
 ];
 
