@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { Logo_S, menu, close } from "../assets";
+import Resume from "../assets/Resume/Shubham_Yeram(Resume).pdf";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
 
   const handleResumeDownload = () => {
-    const resumeLink = import.meta.env.VITE_RESUME_LINK;
-    window.open(resumeLink, "_blank");
+    window.open(Resume, "_blank");
   };
 
   return (
