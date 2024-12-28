@@ -9,6 +9,11 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
 
+  const handleResumeDownload = () => {
+    const resumeLink = import.meta.env.VITE_RESUME_LINK;
+    window.open(resumeLink, "_blank");
+  };
+
   return (
     <nav
       className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
@@ -46,6 +51,13 @@ const Navbar = () => {
           ))}
         </ul>
 
+        <button
+          className="hidden sm:block resume-button"
+          onClick={handleResumeDownload}
+        >
+          Resume
+        </button>
+
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
@@ -73,6 +85,14 @@ const Navbar = () => {
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
+              <li className="mt-2">
+                <button
+                  className="resume-button"
+                  onClick={handleResumeDownload}
+                >
+                  Resume
+                </button>
+              </li>
             </ul>
           </div>
         </div>
